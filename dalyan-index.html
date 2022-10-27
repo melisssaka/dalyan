@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dalyan Beach</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script id="templateHB" type="text/x-handlebars-template">
+      <h1>{{title}}</h1>
+      <p>{{body}}</p>
+      <a href="dalyan-booking.html">Reserve your spot!</a>
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <section class="container">
+        <h1 class="branding">Dalyan Beach</h1>
+        <nav>
+          <ul class="nav">
+            <li class="current"><a href="dalyan-index.html">Home</a></li>
+            <li><a href="dalyan-booking.html">Booking</a></li>
+            <li><a href="dalyan-contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <article id="introduction">
+      <section class="container" id="information"></section>
+    </article>
+
+    <footer>
+      <p>&copy; Dalyan 2021</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
